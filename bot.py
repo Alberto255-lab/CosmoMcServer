@@ -9,15 +9,15 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ===================== CONFIGURAZIONE =====================
-TOKEN = os.environ.get("TELEGRAM_TOKEN", "INSERISCI_QUI_IL_TOKEN_DEL_BOT")
+TOKEN = os.environ.get("TELEGRAM_TOKEN", "8679126247:AAHQpwLVffZyk3g1KXar7JAx9U2Rib8KKCI")
 
 # ID Telegram degli admin (solo loro possono usare i comandi)
 ADMIN_IDS = [
-    123456789,  # <-- sostituisci con il tuo ID (usa @userinfobot per scoprirlo)
+    5513514802, 6254185392  # <-- sostituisci con il tuo ID (usa @userinfobot per scoprirlo)
 ]
 
 # Nome del Codespace (lo trovi con: gh codespace list)
-CODESPACE_NAME = os.environ.get("CODESPACE_NAME", "INSERISCI_NOME_CODESPACE")
+CODESPACE_NAME = os.environ.get("didactic-doodle-977v54xx74vpc7q4w", "CosmoMc")
 
 # Cartella DENTRO il Codespace dove si trova paper-1.21.8-60.jar
 SERVER_DIR = os.environ.get("SERVER_DIR", "/workspaces/NOME-REPO")
